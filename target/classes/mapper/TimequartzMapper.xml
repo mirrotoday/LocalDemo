@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.localdemo.mapper.TimequartzMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.localdemo.entity.Timequartz">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <id property="number" column="number" jdbcType="VARCHAR"/>
+            <result property="classname" column="classname" jdbcType="VARCHAR"/>
+            <result property="classmethod" column="classmethod" jdbcType="VARCHAR"/>
+            <result property="cron" column="cron" jdbcType="VARCHAR"/>
+            <result property="creattime" column="creattime" jdbcType="TIMESTAMP"/>
+            <result property="effdatetime" column="effdatetime" jdbcType="TIMESTAMP"/>
+            <result property="leffdatetime" column="leffdatetime" jdbcType="TIMESTAMP"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,number,classname,
+        classmethod,cron,creattime,
+        effdatetime,leffdatetime,status
+    </sql>
+    <delete id="deleteBatchIds">
+        delete
+        from timequartz
+        where id
+        in (
+        <foreach collection="idList" item="id" separator=",">
+            #{id}
+        </foreach>
+        );
+    </delete>
+
+    <select id="selectList" resultType="com.example.localdemo.entity.Timequartz">
+        select * from timequartz where status = 1 order by number ASC
+    </select>
+    <select id="getId" resultType="java.lang.String">
+        select id from timequartz where number = #{number}
+    </select>
+    <select id="getPersonList" resultType="com.example.localdemo.entity.Person">
+        select fid,fname_l2 as name,fnumber from t_bd_person order by fnumber ASC
+    </select>
+
+</mapper>
