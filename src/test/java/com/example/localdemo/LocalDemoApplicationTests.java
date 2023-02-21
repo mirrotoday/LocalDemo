@@ -1,12 +1,15 @@
 package com.example.localdemo;
 
 import cn.hutool.core.date.DateUtil;
+import com.example.localdemo.entity.Person;
+import com.sun.deploy.util.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @SpringBootTest
 class LocalDemoApplicationTests {
@@ -15,6 +18,94 @@ class LocalDemoApplicationTests {
 
     @Test
     void contextLoads() throws ParseException {
+        Double cc1 = -100.0;
+        if(cc1 < 0.0){
+            System.out.println("小于0");
+        }else{
+            System.out.println("大于0");
+        }
+        List<String> data = new ArrayList<>();
+        data.add("1");
+        data.add("2");
+        data.add("2");
+        Set<String> VBC = new HashSet<>();
+        VBC.add("cc");
+        VBC.add("cc");
+        VBC.add("cc");
+        VBC.add("dd");
+        VBC.add("ee");
+        System.out.println(VBC.toString());
+        /**
+         * stream流去重
+         */
+        List<String> newData = data.stream().distinct().collect(Collectors.toList());
+        System.out.println("去重数据："+newData);
+
+        /**
+         * stream流 排序
+         * sorted
+         */
+        List<Integer> intData = Arrays.asList(1,2,3,4,5,6,7,8,100,45,89,23,80,28,34);
+        List<Integer> sordData = intData.stream().sorted().collect(Collectors.toList());
+        System.out.println("排序后的数据："+sordData);
+        //out: 考试成绩90分以上的学生姓名：[Alis, Jessie, Mike, Jack, Allon, Lucy]
+        List<Person> students = new ArrayList<>();
+        for(int i =0;i<5;i++){
+            Person person = new Person();
+            person.setFid(""+i+"");
+            person.setName("张飞"+i);
+            person.setFnumber("9"+i);
+        }
+//        students.add(new Person("Mike", 10, "male", 88));
+//        students.add(new Person("Jack", 13,"male", 90));
+//        students.add(new Person("Lucy", 15,"female", 100));
+//        students.add(new Person("Jessie", 12,"female", 78));
+//        students.add(new Person("Allon", 16,"female", 92));
+//        students.add(new Person("Alis", 22,"female", 50));
+
+        List<String> nameList = students.stream().sorted(Comparator.comparing(Person::getFnumber)).map(Person::getName).collect(Collectors.toList());
+        System.out.println("按成绩排序输出学生姓名：" + nameList);
+
+        /**
+         * stream 输出
+         */
+        System.out.println("Lambda表达式双个冒号输出");
+        intData.forEach(System.out::println);
+        System.out.println("Lambda表达式遍历输出");
+        intData.forEach(v ->{
+            System.out.println(v);
+        });
+
+        /**
+         * Map输出
+         */
+        Map<Integer,String> mapData = new HashMap<>();
+        mapData.put(1,"张飞");
+        mapData.put(2,"刘备");
+        mapData.put(3,"关羽");
+        mapData.forEach((k,v) ->{
+            System.out.println("Lambda表达式遍历输出Map,[key]:"+k+",[value]:"+v);
+        });
+        /**
+         * stream 条件过滤 取其中任意一个/取其中第一个
+         */
+        Optional<Integer> filerAnyData= intData.stream().filter(x -> x > 10).findAny();
+        List<Integer> data3 = Collections.singletonList(filerAnyData.get());
+        System.out.println("通过条件过滤其中任意一个数据："+filerAnyData);
+        Optional<Integer> filerFirstData= intData.stream().filter(x -> x > 10).findFirst();
+        List<Integer> data4 = Collections.singletonList(filerFirstData.get());
+        System.out.println("通过条件过滤满足条件的第一个数据："+filerAnyData);
+        /**
+         * 使用stream流转化成字符串
+         * 1.stream
+         * 2.StringUtils 工具类 com.sun.deploy.util
+         */
+        String cc = data.stream().collect(Collectors.joining(",","[{","}]"));
+        System.out.println("cc:"+cc);
+
+        String aa = StringUtils.join(data,",");
+        System.out.println("aa:"+aa+","+data.toString());
+
         extracted();
         /**
          * 递归算法
