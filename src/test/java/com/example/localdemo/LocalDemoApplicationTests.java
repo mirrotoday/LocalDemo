@@ -8,6 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -18,6 +20,72 @@ class LocalDemoApplicationTests {
 
     @Test
     void contextLoads() throws ParseException {
+        HashMap MyhashMap = new MyHashMap();
+        String cdfghrt1 = "姓名1"+ "@"+Long.parseLong("67890");
+        String cdfghrt2 = "姓名2"+ "@"+Long.parseLong("12345");
+        MyhashMap.put(cdfghrt1,"A1");
+        MyhashMap.put(cdfghrt1,"A2");
+        MyhashMap.put(cdfghrt2,"A3");
+        MyhashMap.put(cdfghrt2,"A4");
+        MyhashMap.forEach((key, value) -> {
+            String[] split = key.toString().split("@");
+            System.out.println("用户姓名："+split[0]);
+            System.out.println("用户ID："+split[1]);
+            System.out.println("运维工单编号:"+value);
+        });
+        System.out.println(MyhashMap.toString());
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String gqformat = "2023-02-25 15:26:22";
+        String jgformat = "2023-02-25 17:11:07";
+
+//        LocalDateTime start = LocalDateTime.parse(new CharSequence(gqformat));
+////        LocalDateTime end = LocalDateTime.parse(jgformat);
+////        Duration duration = Duration.between(start, end);
+////        long hours = duration.toHours();
+////        System.out.println(hours);
+       // extracted1();
+//        Date parse1 = sdf.parse(gqformat);
+//        Date parse2 = sdf.parse(jgformat);
+//        if(new Date().getTime() > parse2.getTime()){
+//            System.out.println("当前时间大于parse2，就相当于parse2过期了s");
+//        }else{
+//            System.out.println("当前时间小于parse2，就相当于parse2没过期");
+//        }
+ //       System.out.println(formatDuration(parse1,parse2));
+    }
+    public static String formatDuration(Date startTime, Date endTime) {
+        if (null == startTime || null == endTime || startTime.after(endTime)) {
+            return null;
+        }
+        Calendar startCalendar = Calendar.getInstance();
+        startCalendar.setTime(startTime);
+        Calendar endCalendar = Calendar.getInstance();
+        endCalendar.setTime(endTime);
+
+        int minuteDiff = endCalendar.get(Calendar.MINUTE) - startCalendar.get(Calendar.MINUTE);
+        if (minuteDiff < 0) {
+            endCalendar.add(Calendar.HOUR_OF_DAY, -1);
+            minuteDiff = minuteDiff + 60;
+        }
+        int hourDiff = endCalendar.get(Calendar.HOUR_OF_DAY) - startCalendar.get(Calendar.HOUR_OF_DAY);
+        if (hourDiff < 0) {
+            endCalendar.add(Calendar.DAY_OF_MONTH, -1);
+            hourDiff = hourDiff + 24;
+        }
+        StringBuilder builder = new StringBuilder();
+        builder.append(hourDiff).append(".").append(minuteDiff);
+
+        return builder.toString();
+    }
+    // 24 * (differ / dayM) 这里拿到被舍弃的整数，整数是几，就代表相隔几天，一天24小时，那就整数乘以24即可。
+    private static int getDifferHour(Date startDate, Date endDate) {
+        long dayM = 1000 * 24 * 60 * 60;
+        long hourM = 1000 * 60 * 60;
+        long differ = endDate.getTime() - startDate.getTime();
+        long hour = differ % dayM / hourM + 24 * (differ / dayM);
+        return Integer.parseInt(String.valueOf(hour));
+    }
+    private void extracted1() throws ParseException {
         Double cc1 = -100.0;
         if(cc1 < 0.0){
             System.out.println("小于0");

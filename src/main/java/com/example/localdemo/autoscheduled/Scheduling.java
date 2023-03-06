@@ -15,11 +15,11 @@ public class Scheduling {
      */
     @Scheduled(cron = "0/1 * * * * ?")
     public void auto(){
-        log.info("开始执行："+ DateUtil.format(new Date(),"yyyy-MM-dd HH:mm:ss"));
+        //log.info("开始执行："+ DateUtil.format(new Date(),"yyyy-MM-dd HH:mm:ss"));
     }
 
     @Scheduled(cron = "0/1 * * * * ?")
     public void begin(){
-        log.info("执行结束："+ DateUtil.format(new Date(),"yyyy-MM-dd HH:mm:ss"));
+       // log.info("执行结束："+ DateUtil.format(new Date(),"yyyy-MM-dd HH:mm:ss"));
     }
 }
