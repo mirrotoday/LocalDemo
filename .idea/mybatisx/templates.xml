@@ -20,14 +20,14 @@
             <option name="moduleUIInfoList">
               <list>
                 <ModuleInfoGo>
-                  <option name="basePath" value="src/main/java/com/example/localdemo" />
+                  <option name="basePath" value="${domain.basePath}" />
                   <option name="configFileName" value="mapperInterface.ftl" />
                   <option name="configName" value="mapperInterface" />
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.java" />
                   <option name="modulePath" value="$PROJECT_DIR$" />
-                  <option name="packageName" value="mapper" />
+                  <option name="packageName" value="${domain.basePackage}.mapper" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
                   <option name="basePath" value="src/main/resources" />
@@ -40,24 +40,24 @@
                   <option name="packageName" value="mapper" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
-                  <option name="basePath" value="src/main/java/com/example/localdemo" />
+                  <option name="basePath" value="${domain.basePath}" />
                   <option name="configFileName" value="serviceImpl.ftl" />
                   <option name="configName" value="serviceImpl" />
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}ServiceImpl" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}ServiceImpl.java" />
                   <option name="modulePath" value="$PROJECT_DIR$" />
-                  <option name="packageName" value="service.impl" />
+                  <option name="packageName" value="${domain.basePackage}.service.impl" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
-                  <option name="basePath" value="src/main/java/com/example/localdemo" />
+                  <option name="basePath" value="${domain.basePath}" />
                   <option name="configFileName" value="serviceInterface.ftl" />
                   <option name="configName" value="serviceInterface" />
                   <option name="encoding" value="${domain.encoding}" />
                   <option name="fileName" value="${domain.fileName}Service" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Service.java" />
                   <option name="modulePath" value="$PROJECT_DIR$" />
-                  <option name="packageName" value="service" />
+                  <option name="packageName" value="${domain.basePackage}.service" />
                 </ModuleInfoGo>
               </list>
             </option>
@@ -69,12 +69,13 @@
             <option name="tableUIInfoList">
               <list>
                 <TableUIInfo>
-                  <option name="className" value="Timequartz" />
-                  <option name="tableName" value="timequartz" />
+                  <option name="className" value="Message" />
+                  <option name="tableName" value="message" />
                 </TableUIInfo>
               </list>
             </option>
             <option name="templatesName" value="mybatis-plus3" />
+            <option name="useLombokPlugin" value="true" />
           </GenerateConfig>
         </option>
         <option name="moduleName" value="LocalDemo" />
