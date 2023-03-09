@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.localdemo.mapper.MessageMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.localdemo.entity.Message">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <result property="queuesname" column="queuesName" jdbcType="VARCHAR"/>
+            <result property="createtime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="sender" column="sender" jdbcType="VARCHAR"/>
+            <result property="receiver" column="receiver" jdbcType="VARCHAR"/>
+            <result property="code" column="code" jdbcType="VARCHAR"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,queuesName,createTime,
+        sender,receiver,code,
+        title,content
+    </sql>
+    <select id="selectallData" resultType="com.example.localdemo.entity.Message">
+        select id,queuesName,createTime,
+               sender,receiver,code,
+               title,content from message order by createTime DESC
+    </select>
+    <select id="selectOneById" resultType="com.example.localdemo.entity.Message">
+        select * from message where id = #{id}
+    </select>
+
+</mapper>
