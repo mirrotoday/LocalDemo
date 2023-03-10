@@ -2,7 +2,7 @@ package com.example.localdemo;
 
 import cn.hutool.core.date.DateUtil;
 import com.example.localdemo.entity.Person;
-import com.sun.deploy.util.StringUtils;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -171,8 +171,8 @@ class LocalDemoApplicationTests {
         String cc = data.stream().collect(Collectors.joining(",","[{","}]"));
         System.out.println("cc:"+cc);
 
-        String aa = StringUtils.join(data,",");
-        System.out.println("aa:"+aa+","+data.toString());
+//        String aa = StringUtils.join(data,",");
+//        System.out.println("aa:"+aa+","+data.toString());
 
         extracted();
         /**
