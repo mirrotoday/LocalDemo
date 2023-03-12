@@ -3,7 +3,9 @@ package com.example.localdemo.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.example.localdemo.entity.QuartzJob;
 import com.example.localdemo.result.ApiResult;
+import org.quartz.JobKey;
 import org.quartz.SchedulerException;
+import org.quartz.TriggerKey;
 
 /**
  * @author xieteng
@@ -17,4 +19,7 @@ import org.quartz.SchedulerException;
 public interface IQuartzJobService extends IService<QuartzJob> {
        //保存后台事务数据，并启动
        ApiResult<?> saveAndScheduleJob(QuartzJob quartzJob) throws Exception;
+       ApiResult<?> stopJob(QuartzJob quartzJob);
+       ApiResult<?> execute (QuartzJob quartzJob);
+       ApiResult<?> edit (QuartzJob quartzJob) throws SchedulerException;
 }
