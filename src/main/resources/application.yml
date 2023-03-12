@@ -7,7 +7,12 @@ server:
 #      url: jdbc:mysql://127.0.0.1/zsymes?autoReconnect=true&useUnicode=true&characterEncoding=utf-8
 #      username: root
 #      password: 306227
+# 生产环境需设置为false
 
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
 spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
@@ -61,11 +66,11 @@ spring:
             class: javax.net.ssl.SSLSocketFactory
         debug: true
 #redis
-redis:
-  database: 0           #redis数据库索引（默认为0）
-  host: 127.0.0.1       #redis服务器ip，由于我是搭建在本地，固指向本地ip
-  port: 6379            #redis服务器连接端口
-  password:             #redis服务器连接密码（默认为空）
+  redis:
+    database: 0           #redis数据库索引（默认为0）
+    host: 127.0.0.1       #redis服务器ip，由于我是搭建在本地，固指向本地ip
+    port: 6379            #redis服务器连接端口
+    password:             #redis服务器连接密码（默认为空）
   # 连接池配置
   jedis.pool:
     max-active: 20      #连接池最大连接数（使用负值表示没有限制）
@@ -74,14 +79,17 @@ redis:
     min-idle: 0         #连接池中的最小空闲连接
     timeout: 5000       #连接超时时间（毫秒）。我设置的是1秒
   #集成swagger3
-mvc:
-  pathmatch:
-    matching-strategy: ant_path_matcher
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+    static-path-pattern: /static/**
+knife4j:
+    enable: true
 
 mybatis-plus:
   mapper-locations: classpath*:mapper/*.xml
   configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 ##自动建表设置
 mybatis:

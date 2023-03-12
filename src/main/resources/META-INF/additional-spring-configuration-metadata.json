@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "mybatis.table.auto",
+      "type": "java.lang.String",
+      "description": "Description for mybatis.table.auto."
+    },
+    {
+      "name": "spring.mybatis-plus.mapper-locations.configuration.log-impl",
+      "type": "java.lang.String",
+      "description": "Description for spring.mybatis-plus.mapper-locations.configuration.log-impl."
+    }
+  ] }
