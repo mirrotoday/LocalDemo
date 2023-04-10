@@ -3,6 +3,7 @@ package com.example.localdemo;
 import cn.hutool.core.date.DateUtil;
 import com.example.localdemo.entity.Person;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -12,7 +13,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
-
+@Slf4j
 @SpringBootTest
 class LocalDemoApplicationTests {
 
@@ -20,23 +21,24 @@ class LocalDemoApplicationTests {
 
     @Test
     void contextLoads() throws ParseException {
-        HashMap MyhashMap = new MyHashMap();
-        String cdfghrt1 = "姓名1"+ "@"+Long.parseLong("67890");
-        String cdfghrt2 = "姓名2"+ "@"+Long.parseLong("12345");
-        MyhashMap.put(cdfghrt1,"A1");
-        MyhashMap.put(cdfghrt1,"A2");
-        MyhashMap.put(cdfghrt2,"A3");
-        MyhashMap.put(cdfghrt2,"A4");
-        MyhashMap.forEach((key, value) -> {
-            String[] split = key.toString().split("@");
-            System.out.println("用户姓名："+split[0]);
-            System.out.println("用户ID："+split[1]);
-            System.out.println("运维工单编号:"+value);
-        });
-        System.out.println(MyhashMap.toString());
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String gqformat = "2023-02-25 15:26:22";
-        String jgformat = "2023-02-25 17:11:07";
+
+        //        HashMap MyhashMap = new MyHashMap();
+//        String cdfghrt1 = "姓名1"+ "@"+Long.parseLong("67890");
+//        String cdfghrt2 = "姓名2"+ "@"+Long.parseLong("12345");
+//        MyhashMap.put(cdfghrt1,"A1");
+//        MyhashMap.put(cdfghrt1,"A2");
+//        MyhashMap.put(cdfghrt2,"A3");
+//        MyhashMap.put(cdfghrt2,"A4");
+//        MyhashMap.forEach((key, value) -> {
+//            String[] split = key.toString().split("@");
+//            System.out.println("用户姓名："+split[0]);
+//            System.out.println("用户ID："+split[1]);
+//            System.out.println("运维工单编号:"+value);
+//        });
+//        System.out.println(MyhashMap.toString());
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        String gqformat = "2023-02-25 15:26:22";
+//        String jgformat = "2023-02-25 17:11:07";
 
 //        LocalDateTime start = LocalDateTime.parse(new CharSequence(gqformat));
 ////        LocalDateTime end = LocalDateTime.parse(jgformat);

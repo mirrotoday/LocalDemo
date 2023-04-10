@@ -34,10 +34,15 @@ spring:
           username: root
           password: kingdee
           type: com.alibaba.druid.pool.DruidDataSource
-        sqlserver:
+        sqlserver: #本地SqlServer
           driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
           url: jdbc:sqlserver://localhost:1433;DatabaseName=SHR0926;encrypt=false
           username: sa
+          password: 123456
+        Oracle: #彩虹Oracle测试库
+          driverClassName: oracle.jdbc.driver.OracleDriver
+          url: jdbc:oracle:thin:@199.199.199.16:1521:orcl
+          username: CHJTSHR
           password: 123456
       hikari:
         max-lifetime: 1800000

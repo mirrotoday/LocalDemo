@@ -19,7 +19,7 @@ public class InitCanalConfig implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        canalUtil.run();
+       // canalUtil.run();
     }
 }
 

@@ -1,11 +1,18 @@
 package com.example.localdemo.mq.receiver;
 
 import cn.hutool.json.JSONUtil;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.example.localdemo.entity.Message;
 import com.example.localdemo.mapper.MessageMapper;
 import com.example.localdemo.mq.config.RedisKeyConstant;
 import com.example.localdemo.mq.entity.MailVO;
+import com.example.localdemo.result.ApiResult;
+import com.example.localdemo.utils.CodeUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.methods.PostMethod;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.StringRedisTemplate;
