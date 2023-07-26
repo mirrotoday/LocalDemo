@@ -3,6 +3,7 @@ package com.example.localdemo.service.impl;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.poi.excel.ExcelUtil;
 import cn.hutool.poi.excel.ExcelWriter;
+//import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -10,14 +11,18 @@ import com.example.localdemo.entity.Person;
 import com.example.localdemo.entity.Timequartz;
 import com.example.localdemo.service.TimequartzService;
 import com.example.localdemo.mapper.TimequartzMapper;
+import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
 import javax.annotation.Resource;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -88,9 +93,10 @@ public class TimequartzServiceImpl extends ServiceImpl<TimequartzMapper, Timequa
      * 使用@DS注解，连接多数据源中的sqlserver数据库
      * @return
      */
+    @SneakyThrows
     @DS("sqlserver")
     @Override
-    public List<Person> getPersonList() {
+    public List<Person> getPersonList(){
         List<Person> personInfo = timequartzMapper.getPersonList();
         if(personInfo.size() > 0){
             log.info("获取到人员数量："+personInfo.size());
@@ -105,9 +111,9 @@ public class TimequartzServiceImpl extends ServiceImpl<TimequartzMapper, Timequa
      * writer.autoSizeColumnAll(); 设置自适应单元格的长宽
      * @param response
      */
-    @DS("sqlserver")
+//    @DS("sqlserver")
     @Override
-    public void export(HttpServletResponse response)  {
+    public void export(HttpServletResponse response) throws Exception {
         List<Person> list = timequartzMapper.getPersonList();
         ExcelWriter writer = ExcelUtil.getWriter(true);
         //自定义标题别名,（"实体名称"，"自定义名称"）

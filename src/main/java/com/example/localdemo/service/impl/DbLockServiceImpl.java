@@ -7,6 +7,8 @@ import com.example.localdemo.service.DbLockService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
@@ -22,7 +24,7 @@ public class DbLockServiceImpl implements DbLockService {
     @Resource
     DbLockMapper dbLockMapper;
 
-    @Transactional
+    @Transactional() //设置只读。只能查询
     @Override
     public ApiResult<?> getOneRowData(String id) throws InterruptedException {
         Message message = dbLockMapper.selectRowById(id);
@@ -32,7 +34,7 @@ public class DbLockServiceImpl implements DbLockService {
         return new ApiResult<>().result(message);
     }
 
-    @Transactional
+    @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public ApiResult<?> getOneTableData(String code) throws InterruptedException {
         Message message = dbLockMapper.selectByNumber(code);
@@ -41,7 +43,7 @@ public class DbLockServiceImpl implements DbLockService {
         log.info("getOneTableData结束等待30秒");
         return new ApiResult<>().result(message);
     }
-
+    @Transactional
     @Override
     public ApiResult<?> updateOneRowData(String id) {
         try {

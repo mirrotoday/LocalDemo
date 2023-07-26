@@ -1,12 +1,21 @@
 package com.example.localdemo;
 
 import cn.hutool.core.date.DateUtil;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.example.localdemo.authentication.JwtVerifyResult;
+import com.example.localdemo.authentication.UtilJwt;
+import com.example.localdemo.config.Knife4j3Config;
 import com.example.localdemo.entity.Person;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import javax.annotation.Resource;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -17,11 +26,48 @@ import java.util.stream.Collectors;
 @SpringBootTest
 class LocalDemoApplicationTests {
 
+    @Resource
+    ApplicationContext context;
 
+    @Value("${token.appkey}")
+    static String appkey;
+
+    @Value("${token.appsecret}")
+    static String appsecret;
 
     @Test
     void contextLoads() throws ParseException {
+        //获取交给Spring管理的Bean对象
+        //Knife4j3Config knife4j3Config = (Knife4j3Config) context.getBean("Knife4j3Config");
+        Map<String,String> payload = new HashMap<>();
+        payload.put("uuid","345345");//可以设置成数据库员工的唯一主键ID
+        payload.put("ts", DateUtil.current()+"");
 
+        String token = UtilJwt.createToken(payload,appkey,appsecret);
+        System.out.println(token);
+
+        JwtVerifyResult jwtVerifyResult = UtilJwt.validateToken(token,appkey,appsecret);
+        if(jwtVerifyResult.getSuccess()){
+            payload = jwtVerifyResult.getPayload();
+            System.out.println("负载："+payload.toString());
+        }else{
+            System.out.println("验证失败："+jwtVerifyResult.toString());
+        }
+//    JSONArray dd = JSONObject.parseArray(cc);
+//        System.out.println(dd.size());
+//        for (int i = 0; i < dd.size(); i++) {
+//            JSONObject jsonObject = dd.getJSONObject(i);
+//            String string = jsonObject.getString("cal_adminorg.longnumber");
+//            if("100!1!109!10905!1090513".equals(string)){
+//                dd.fluentRemove(i);
+//            }
+//        }
+//        dd.fluentAddAll(dd);
+//        System.out.println(dd.size());
+//        JSONArray objects = JSONObject.parseArray(new StringBuilder().append(jsonString).toString());
+//        for (Object cc:objects) {
+//            System.out.println(cc);
+//        }
         //        HashMap MyhashMap = new MyHashMap();
 //        String cdfghrt1 = "姓名1"+ "@"+Long.parseLong("67890");
 //        String cdfghrt2 = "姓名2"+ "@"+Long.parseLong("12345");

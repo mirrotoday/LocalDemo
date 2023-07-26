@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.example.localdemo.utils.CodeUtils;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.gitee.sunchenbin.mybatis.actable.annotation.Column;
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -29,30 +30,41 @@ public class QuartzJob implements Serializable {
     @TableId(type = IdType.ASSIGN_ID)
     private java.lang.String id;
     /**创建人*/
+    @Column(name = "createBy")
     private java.lang.String createBy;
     /**创建时间*/
     @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @Column(name = "createTime")
     private java.util.Date createTime;
     /**删除状态*/
+    @Column(name = "delFlag")
     private java.lang.Integer delFlag;
     /**修改人*/
+    @Column(name = "updateBy")
     private java.lang.String updateBy;
     /**修改时间*/
+
     @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @Column(name = "updateTime")
     private java.util.Date updateTime;
     /**任务类名*/
     @NotBlank(message="任务类名不能为空")
+    @Column(name = "jobClassName")
     private java.lang.String jobClassName;
     /**cron表达式*/
     @NotBlank(message="cron表达式不能为空")
+    @Column(name = "cronExpression")
     private java.lang.String cronExpression;
     /**参数*/
+    @Column(name = "parameter")
     private java.lang.String parameter;
     /**描述*/
+    @Column(name = "description")
     private java.lang.String description;
     /**状态 0正常 -1停止*/
+    @Column(name = "status")
     private java.lang.Integer status;
     /** new 对象的时候自动初始化*/
     public QuartzJob(){

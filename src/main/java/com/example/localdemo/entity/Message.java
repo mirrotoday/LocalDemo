@@ -9,6 +9,8 @@ import java.util.Date;
 
 import com.example.localdemo.utils.CodeUtils;
 import com.example.localdemo.utils.DateUtils;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.gitee.sunchenbin.mybatis.actable.annotation.Column;
 import lombok.Data;
 
 /**
@@ -27,36 +29,44 @@ public class Message implements Serializable {
     /**
      * 消费者名称
      */
+    @Column(name = "queuesname")
     private String queuesname;
 
     /**
      * 创建时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    @Column(name = "createtime")
     private Date createtime;
 
     /**
      * 发送人
      */
+    @Column(name = "sender")
     private String sender;
 
     /**
      * 接收人
      */
+    @Column(name = "receiver")
     private String receiver;
 
     /**
      * 验证码
      */
+    @Column(name = "code")
     private String code;
 
     /**
      * 标题
      */
+    @Column(name = "title")
     private String title;
 
     /**
      * 内容
      */
+    @Column(name = "content")
     private String content;
 
     @TableField(exist = false)

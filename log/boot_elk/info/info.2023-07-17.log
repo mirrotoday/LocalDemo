@@ -1,0 +1,1018 @@
+2023-07-17 18:41:37 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 18:41:37 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 6636 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 18:41:37 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 18:41:38 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 18:41:38 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 18:41:38 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4aac4ea1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 18:41:39 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2390 ms
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 18:41:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 18:41:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@13aed42b
+2023-07-17 18:41:46 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 18:41:46 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 18:41:46 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:41:48 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+2023-07-17 18:41:48 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:41:50 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:41:52 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:41:54 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+2023-07-17 18:41:54 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:41:56 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:41:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@57867d96: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-07-17 18:41:59 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:01 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:03 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+2023-07-17 18:42:03 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:04 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@3a4cb483: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-07-17 18:42:05 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:07 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:09 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:10 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@327a5402: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-07-17 18:42:11 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:41 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 18:42:41 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 18336 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 18:42:41 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 18:42:42 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 18:42:42 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 18:42:42 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-07-17 18:42:42 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 18:42:42 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c8e048c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 18:42:42 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 18:42:43 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 18:42:43 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 18:42:43 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 18:42:43 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 18:42:43 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 18:42:43 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2039 ms
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 18:42:44 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 18:42:46 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@78065fcd
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#1df5c7e3:0/SimpleConnection@13047d3d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55515]
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 18:42:49 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 9.151 seconds (JVM running for 10.567)
+2023-07-17 18:44:13 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 18:44:13 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 18:44:13 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 18:45:02 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法开始时间：2023-18-17 18:45:02
+2023-07-17 18:45:02 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法,请求的时间为：2023-18-17 18:45:02,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/execute,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 18:45:02 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 18:45:02 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:03 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:03 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.TakeTimeAspect 请求返回的结果为：{"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob启动成功！","success":true,"timeStamp":1689590702,"total":0}
+2023-07-17 18:45:03 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法结束时间：2023-18-17 18:45:03
+2023-07-17 18:45:03 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法消耗时间：280 ms
+2023-07-17 18:45:03 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver 获取到log-queue队列的消息数据为：LogMessage(id=1680891353451462656, startTime=Mon Jul 17 18:45:02 CST 2023, requestStyle=PostmanRuntime/7.32.3, requestUrl=http://127.0.0.1:9099/sys/quartzJob/execute, requestType=POST, requestIp=127.0.0.1, requestResult={"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob启动成功！","success":true,"timeStamp":1689590702,"total":0}, endTime=Mon Jul 17 18:45:03 CST 2023, expendTime=280)
+2023-07-17 18:45:03 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver log-queue队列的消息数据存储成功
+2023-07-17 18:45:04 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:05 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:06 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:07 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:08 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:09 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:10 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:11 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:12 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:13 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:14 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:15 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:16 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:17 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:18 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:19 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:20 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:21 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:22 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:23 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:24 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:25 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:26 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:27 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:28 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:29 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:30 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:31 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:32 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:33 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:34 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:35 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:36 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:37 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:38 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:39 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:40 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:41 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:42 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:43 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:44 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:45 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:46 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:47 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:48 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:49 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:50 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:51 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:52 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法开始时间：2023-18-17 18:45:53
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法,请求的时间为：2023-18-17 18:45:53,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/pause,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect 请求返回的结果为：{"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob停止成功！","success":true,"timeStamp":1689590753,"total":0}
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法结束时间：2023-18-17 18:45:53
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法消耗时间：31 ms
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver 获取到log-queue队列的消息数据为：LogMessage(id=1680891564970213376, startTime=Mon Jul 17 18:45:53 CST 2023, requestStyle=PostmanRuntime/7.32.3, requestUrl=http://127.0.0.1:9099/sys/quartzJob/pause, requestType=POST, requestIp=127.0.0.1, requestResult={"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob停止成功！","success":true,"timeStamp":1689590753,"total":0}, endTime=Mon Jul 17 18:45:53 CST 2023, expendTime=31)
+2023-07-17 18:45:53 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver log-queue队列的消息数据存储成功
+2023-07-17 18:54:56 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-3 com.example.localdemo.controller.SendSmsCodeController 请求结果为：{"message":"已推送到发送队列","result":"success"}
+2023-07-17 18:54:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-3 com.example.localdemo.controller.SendSmsCodeController 验证码为：8z3m
+2023-07-17 18:55:08 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-8 com.example.localdemo.controller.SendSmsCodeController 请求结果为：{"message":"已推送到发送队列","result":"success"}
+2023-07-17 18:55:08 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-8 com.example.localdemo.controller.SendSmsCodeController 验证码为：ucs9
+2023-07-17 19:01:20 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.LogAspect ===================[这是一个环绕通知]===================
+2023-07-17 19:01:20 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.LogAspect 环绕通知=====目标方法之前执行,，其的方法名为：getLogMessageList,参数为：[]
+2023-07-17 19:01:20 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.LogAspect 环绕通知=====目标方法返回后执行,返回值为：{"code":0,"data":[{"endTime":"2023-07-15 12:30:20","expendTime":9346,"id":1680072238629388288,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 12:30:15"},{"endTime":"2023-07-15 13:09:24","expendTime":748,"id":1680082108472623104,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:09:24"},{"endTime":"2023-07-15 13:08:37","expendTime":6698,"id":1680081883330772992,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:08:35"},{"endTime":"2023-07-15 13:53:47","expendTime":544,"id":1680093275207237632,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:53:46"},{"endTime":"2023-07-15 13:15:39","expendTime":479,"id":1680083682515222528,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/execute","startTime":"2023-07-15 13:15:39"},{"endTime":"2023-07-15 13:54:38","expendTime":32,"id":1680093491687849984,"requestIp":"192.168.199.122","requestStyle":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:54:38"},{"endTime":"2023-07-17 18:45:53","expendTime":31,"id":1680891564970213376,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/pause","startTime":"2023-07-17 18:45:53"},{"endTime":"2023-07-17 18:45:03","expendTime":280,"id":1680891353451462656,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/execute","startTime":"2023-07-17 18:45:03"},{"endTime":"2023-07-15 13:07:16","expendTime":2056,"id":1680081564530114560,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:07:14"},{"endTime":"2023-07-15 13:15:43","expendTime":20,"id":1680083698134810624,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/pause","startTime":"2023-07-15 13:15:43"}],"message":"操作成功！","success":true,"timeStamp":1689591680,"total":0}
+2023-07-17 19:01:20 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-7 com.example.localdemo.annotation.aspect.LogAspect 环绕通知=====目标方法执行完毕
+2023-07-17 19:01:28 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.LogAspect ===================[这是一个环绕通知]===================
+2023-07-17 19:01:28 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.LogAspect 环绕通知=====目标方法之前执行,，其的方法名为：getLogMessageList,参数为：[]
+2023-07-17 19:01:28 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.LogAspect 环绕通知=====目标方法返回后执行,返回值为：{"code":0,"data":[{"endTime":"2023-07-15 12:30:20","expendTime":9346,"id":1680072238629388288,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 12:30:15"},{"endTime":"2023-07-15 13:09:24","expendTime":748,"id":1680082108472623104,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:09:24"},{"endTime":"2023-07-15 13:08:37","expendTime":6698,"id":1680081883330772992,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:08:35"},{"endTime":"2023-07-15 13:53:47","expendTime":544,"id":1680093275207237632,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:53:46"},{"endTime":"2023-07-15 13:15:39","expendTime":479,"id":1680083682515222528,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/execute","startTime":"2023-07-15 13:15:39"},{"endTime":"2023-07-15 13:54:38","expendTime":32,"id":1680093491687849984,"requestIp":"192.168.199.122","requestStyle":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:54:38"},{"endTime":"2023-07-17 18:45:53","expendTime":31,"id":1680891564970213376,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/pause","startTime":"2023-07-17 18:45:53"},{"endTime":"2023-07-17 18:45:03","expendTime":280,"id":1680891353451462656,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/execute","startTime":"2023-07-17 18:45:03"},{"endTime":"2023-07-15 13:07:16","expendTime":2056,"id":1680081564530114560,"requestIp":"192.168.199.122","requestStyle":"PostmanRuntime/7.32.3","requestType":"GET","requestUrl":"http://192.168.199.122:9099/api/getSqlServerPerson","startTime":"2023-07-15 13:07:14"},{"endTime":"2023-07-15 13:15:43","expendTime":20,"id":1680083698134810624,"requestIp":"127.0.0.1","requestStyle":"PostmanRuntime/7.32.3","requestType":"POST","requestUrl":"http://127.0.0.1:9099/sys/quartzJob/pause","startTime":"2023-07-15 13:15:43"}],"message":"操作成功！","success":true,"timeStamp":1689591688,"total":0}
+2023-07-17 19:01:28 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.LogAspect 环绕通知=====目标方法执行完毕
+2023-07-17 19:12:43 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-19-17 19:12:43
+2023-07-17 19:12:43 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-19-17 19:12:43,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:30:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 19:30:50 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 19:31:09 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 6904 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 19:31:09 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 19:31:09 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 19:31:10 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 19:31:10 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 19:31:10 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e6bd0e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 19:31:11 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2581 ms
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 19:31:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 19:31:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@12cd129c
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2c18a3ea:0/SimpleConnection@54e06788 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58801]
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 19:31:18 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 10.169 seconds (JVM running for 12.23)
+2023-07-17 19:31:38 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 19:31:38 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 19:31:38 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 19:31:38 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-19-17 19:31:38
+2023-07-17 19:31:38 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-19-17 19:31:38,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:35:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 19:35:56 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 19:36:13 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 11444 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 19:36:13 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 19:36:13 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 19:36:14 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 19:36:14 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 19:36:14 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e6bd0e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 19:36:15 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2128 ms
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 19:36:17 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 19:36:19 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@12cd129c
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2c18a3ea:0/SimpleConnection@54e06788 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59175]
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 19:36:23 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 10.766 seconds (JVM running for 13.425)
+2023-07-17 19:36:52 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 19:36:52 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 19:36:52 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 19:36:52 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-19-17 19:36:52
+2023-07-17 19:36:52 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-19-17 19:36:52,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 19:37:27 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:37:27 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:37:27 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:37:27 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:37:28 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:37:28 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:37:28 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 19:37:31 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 19:39:29 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 19:39:29 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 13952 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 19:39:29 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 19:39:30 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 19:39:30 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 19:39:30 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2023-07-17 19:39:31 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:39:31 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e6bd0e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:39:31 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:39:32 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 19:39:32 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:39:32 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 19:39:32 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 19:39:32 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 19:39:32 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3000 ms
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 19:39:34 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 19:39:36 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4cb00fa5
+2023-07-17 19:39:39 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:39:39 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 19:39:40 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 19:39:40 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#25953be6:0/SimpleConnection@4e45fbd0 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59334]
+2023-07-17 19:39:40 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 19:39:40 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 19:39:40 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 11.617 seconds (JVM running for 13.637)
+2023-07-17 19:39:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 19:39:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 19:39:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 3 ms
+2023-07-17 19:39:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-19-17 19:39:46
+2023-07-17 19:39:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-19-17 19:39:46,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 19:41:32 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:41:32 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:41:32 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:41:32 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:41:32 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:41:32 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:41:33 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 19:41:36 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 19:43:37 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 17636 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 19:43:37 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 19:43:37 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 19:43:39 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 19:43:39 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 19:43:39 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2023-07-17 19:43:39 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:43:39 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$845874cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:43:39 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:43:40 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 19:43:40 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:43:40 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 19:43:40 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 19:43:40 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 19:43:40 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2495 ms
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 19:43:41 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 19:43:43 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5030997b
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#1ff463bb:0/SimpleConnection@5d94c50e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59590]
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 19:43:47 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 10.752 seconds (JVM running for 13.319)
+2023-07-17 19:43:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 19:43:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 19:43:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2023-07-17 19:43:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-19-17 19:43:57
+2023-07-17 19:43:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-19-17 19:43:57,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:47:58 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 19:48:01 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 19:48:22 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 19:48:22 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 14684 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 19:48:22 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 19:48:24 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 19:48:24 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 19:48:24 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2023-07-17 19:48:24 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:48:24 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3e498a0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:48:24 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 19:48:25 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 19:48:25 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:48:25 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 19:48:25 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 19:48:25 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 19:48:25 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2511 ms
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 19:48:26 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 19:48:28 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@29db008c
+2023-07-17 19:48:31 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 19:48:31 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 19:48:32 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 19:48:32 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7a0f06ad:0/SimpleConnection@202ba60a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60222]
+2023-07-17 19:48:32 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 19:48:32 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 19:48:32 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 10.549 seconds (JVM running for 12.79)
+2023-07-17 19:48:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 19:48:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 19:48:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 19:48:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-19-17 19:48:48
+2023-07-17 19:48:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-19-17 19:48:48,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 19:56:13 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:56:13 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:56:13 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:56:13 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 19:56:14 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:56:14 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:56:14 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 19:56:17 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 20:01:19 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 20:01:19 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 7888 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 20:01:19 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 20:01:21 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 20:01:21 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 20:01:21 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b93ddb24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 20:01:22 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2974 ms
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 20:01:24 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 20:01:26 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@637d111d
+2023-07-17 20:01:29 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:01:29 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 20:01:30 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 20:01:30 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3fef1e6b:0/SimpleConnection@1e9d6c78 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61837]
+2023-07-17 20:01:30 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 20:01:30 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:01:30 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 11.345 seconds (JVM running for 13.441)
+2023-07-17 20:01:39 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 20:01:39 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 20:01:39 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 20:01:39 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-20-17 20:01:39
+2023-07-17 20:01:39 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-20-17 20:01:39,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 20:05:16 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:05:16 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:05:16 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:05:16 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:05:17 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:05:17 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:05:17 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 20:05:20 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 20:10:40 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 20:10:40 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 9588 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 20:10:40 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 20:10:42 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 20:10:42 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 20:10:42 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e8d61d6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 20:10:43 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2709 ms
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 20:10:45 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 20:10:47 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@61becbcf
+2023-07-17 20:10:50 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:10:50 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 20:10:51 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 20:10:51 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7d7b4e04:0/SimpleConnection@481f698f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63645]
+2023-07-17 20:10:51 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 20:10:51 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:10:51 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 11.621 seconds (JVM running for 13.781)
+2023-07-17 20:10:55 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 20:10:55 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 20:10:55 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 20:10:56 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-20-17 20:10:56
+2023-07-17 20:10:56 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-2 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-20-17 20:10:56,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:11:45 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 20:11:49 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 20:21:10 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 20:21:10 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 20424 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 20:21:10 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 20:21:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 20:21:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 20:21:11 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-07-17 20:21:11 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:21:11 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$430f3b20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:21:11 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:21:12 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 20:21:12 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:21:12 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 20:21:12 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 20:21:12 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 20:21:12 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2084 ms
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 20:21:13 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 20:21:15 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@10e56da9
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2bb62414:0/SimpleConnection@16c8e9b8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64295]
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:21:19 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 10.455 seconds (JVM running for 11.992)
+2023-07-17 20:21:24 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 20:21:24 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 20:21:24 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 20:21:24 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法开始时间：2023-20-17 20:21:24
+2023-07-17 20:21:24 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [getPersonInfo]方法,请求的时间为：2023-20-17 20:21:24,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://192.168.199.122:9099/api/getSqlServerPerson,请求类型为：GET,用户请求的IP地址为：192.168.199.122
+2023-07-17 20:25:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:25:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:25:47 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:25:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:25:47 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:25:48 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:25:48 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 20:25:51 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 20:41:48 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 20:41:48 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 19932 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 20:41:48 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 20:41:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 20:41:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 20:41:49 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e6bd0e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 20:41:50 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2590 ms
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 20:41:52 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 20:41:54 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@12cd129c
+2023-07-17 20:41:57 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:41:57 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 20:41:58 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-07-17 20:41:58 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2c18a3ea:0/SimpleConnection@33f2cf82 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59463]
+2023-07-17 20:41:58 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 20:41:58 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:41:58 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 10.739 seconds (JVM running for 13.058)
+2023-07-17 20:42:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 20:42:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 20:42:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 20:42:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法开始时间：2023-20-17 20:42:48
+2023-07-17 20:42:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法,请求的时间为：2023-20-17 20:42:48,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/execute,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 20:42:48 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法开始时间：2023-20-17 20:45:18
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法,请求的时间为：2023-20-17 20:45:18,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/execute,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect 请求返回的结果为：{"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob启动成功！","success":true,"timeStamp":1689597918,"total":0}
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法结束时间：2023-20-17 20:45:18
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法消耗时间：325 ms
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver 获取到log-queue队列的消息数据为：LogMessage(id=1680921616734748672, startTime=Mon Jul 17 20:45:18 CST 2023, requestStyle=PostmanRuntime/7.32.3, requestUrl=http://127.0.0.1:9099/sys/quartzJob/execute, requestType=POST, requestIp=127.0.0.1, requestResult={"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob启动成功！","success":true,"timeStamp":1689597918,"total":0}, endTime=Mon Jul 17 20:45:18 CST 2023, expendTime=325)
+2023-07-17 20:45:18 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver log-queue队列的消息数据存储成功
+2023-07-17 20:45:19 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:20 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:21 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:22 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:23 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:24 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:25 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:26 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:27 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:28 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:29 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:30 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:31 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:32 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:33 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:34 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:35 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:36 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:37 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:38 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:39 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:40 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:41 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:42 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:43 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:44 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:45 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:46 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:47 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:48 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:49 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:50 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:51 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:52 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:53 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:54 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:55 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:56 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:57 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法开始时间：2023-20-17 20:45:57
+2023-07-17 20:45:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法,请求的时间为：2023-20-17 20:45:57,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/execute,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 20:45:57 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:45:58 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:45:59 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:00 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:01 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:02 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:03 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:04 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:05 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:06 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:07 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:08 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:09 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:10 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:11 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:12 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:13 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:14 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:15 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:16 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:17 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:18 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法开始时间：2023-20-17 20:46:19
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法,请求的时间为：2023-20-17 20:46:19,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/pause,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect 请求返回的结果为：{"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob停止成功！","success":true,"timeStamp":1689597979,"total":0}
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法结束时间：2023-20-17 20:46:19
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-5 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法消耗时间：16 ms
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver 获取到log-queue队列的消息数据为：LogMessage(id=1680921872285302784, startTime=Mon Jul 17 20:46:19 CST 2023, requestStyle=PostmanRuntime/7.32.3, requestUrl=http://127.0.0.1:9099/sys/quartzJob/pause, requestType=POST, requestIp=127.0.0.1, requestResult={"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob停止成功！","success":true,"timeStamp":1689597979,"total":0}, endTime=Mon Jul 17 20:46:19 CST 2023, expendTime=16)
+2023-07-17 20:46:19 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver log-queue队列的消息数据存储成功
+2023-07-17 20:47:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:47:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:47:52 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:47:52 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-07-17 20:47:53 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:47:53 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:47:53 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-07-17 20:47:54 INFO  springAppName_IS_UNDEFINED SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-07-17 20:48:04 INFO  springAppName_IS_UNDEFINED background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-07-17 20:48:04 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 20176 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-07-17 20:48:04 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication No active profile set, falling back to 1 default profile: "default"
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e6bd0e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-07-17 20:48:05 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-07-17 20:48:06 INFO  springAppName_IS_UNDEFINED main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-07-17 20:48:06 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2019 ms
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-07-17 20:48:07 INFO  springAppName_IS_UNDEFINED main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-07-17 20:48:09 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@12cd129c
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.2:5672]
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2c18a3ea:0/SimpleConnection@33f2cf82 [delegate=amqp://guest@127.0.0.2:5672/, localPort= 59776]
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:48:12 INFO  springAppName_IS_UNDEFINED main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 9.183 seconds (JVM running for 10.661)
+2023-07-17 20:48:26 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-17 20:48:26 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-07-17 20:48:26 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-07-17 20:48:26 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法开始时间：2023-20-17 20:48:26
+2023-07-17 20:48:26 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法,请求的时间为：2023-20-17 20:48:26,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/execute,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect 请求返回的结果为：{"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob启动成功！","success":true,"timeStamp":1689598107,"total":0}
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法结束时间：2023-20-17 20:48:27
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-1 com.example.localdemo.annotation.aspect.TakeTimeAspect [executeJob]方法消耗时间：390 ms
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver 获取到log-queue队列的消息数据为：LogMessage(id=1680922408837447680, startTime=Mon Jul 17 20:48:26 CST 2023, requestStyle=PostmanRuntime/7.32.3, requestUrl=http://127.0.0.1:9099/sys/quartzJob/execute, requestType=POST, requestIp=127.0.0.1, requestResult={"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob启动成功！","success":true,"timeStamp":1689598107,"total":0}, endTime=Mon Jul 17 20:48:27 CST 2023, expendTime=390)
+2023-07-17 20:48:27 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver log-queue队列的消息数据存储成功
+2023-07-17 20:48:28 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:29 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:30 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:31 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:32 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:33 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:34 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:35 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:36 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:37 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-1 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:38 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-2 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:39 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-3 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:40 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-4 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:41 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-5 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:42 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-6 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:43 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-7 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:44 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-8 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:45 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-9 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED quartzScheduler_Worker-10 com.example.localdemo.job.MyTestJob 接收到的参数为：name测试2
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法开始时间：2023-20-17 20:48:46
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法,请求的时间为：2023-20-17 20:48:46,请求的介质为：PostmanRuntime/7.32.3,当前请求的URL为：http://127.0.0.1:9099/sys/quartzJob/pause,请求类型为：POST,用户请求的IP地址为：127.0.0.1
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect 请求返回的结果为：{"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob停止成功！","success":true,"timeStamp":1689598126,"total":0}
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法结束时间：2023-20-17 20:48:46
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-4 com.example.localdemo.annotation.aspect.TakeTimeAspect [pauseJob]方法消耗时间：19 ms
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver 获取到log-queue队列的消息数据为：LogMessage(id=1680922490123059200, startTime=Mon Jul 17 20:48:46 CST 2023, requestStyle=PostmanRuntime/7.32.3, requestUrl=http://127.0.0.1:9099/sys/quartzJob/pause, requestType=POST, requestIp=127.0.0.1, requestResult={"code":0,"message":"后台事务：com.example.localdemo.job.MyTestJob停止成功！","success":true,"timeStamp":1689598126,"total":0}, endTime=Mon Jul 17 20:48:46 CST 2023, expendTime=19)
+2023-07-17 20:48:46 INFO  springAppName_IS_UNDEFINED org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.example.localdemo.mq.receiver.DirectLogReceiver log-queue队列的消息数据存储成功
+2023-07-17 20:49:39 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-6 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [Hm_lvt_5819d05c0869771ff6e6a81cdec5b2e8=1677925689,1678082632;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-07-17 22:17:18 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-8 com.example.localdemo.controller.SendSmsCodeController 请求结果为：{"message":"已推送到发送队列","result":"success"}
+2023-07-17 22:17:19 INFO  springAppName_IS_UNDEFINED http-nio-9099-exec-8 com.example.localdemo.controller.SendSmsCodeController 验证码为：yffd

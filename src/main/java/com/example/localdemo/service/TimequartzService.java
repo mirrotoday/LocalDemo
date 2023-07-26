@@ -23,7 +23,7 @@ public interface TimequartzService extends IService<Timequartz> {
 
     int updateData(Timequartz timequartz);
 
-    List<Person> getPersonList();
+    List<Person> getPersonList() throws Exception;
 
-    void export(HttpServletResponse response);
+    void export(HttpServletResponse response) throws Exception;
 }

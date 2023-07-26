@@ -2,6 +2,7 @@ package com.example.localdemo.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.example.localdemo.annotation.TakeTime;
 import com.example.localdemo.mq.config.RedisKeyConstant;
 import com.example.localdemo.request.SmsCodeArgs;
 import com.example.localdemo.result.ApiResult;
@@ -20,6 +21,7 @@ import javax.annotation.Resource;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 
 /**
@@ -30,6 +32,7 @@ import java.time.Duration;
 @Slf4j
 @Api(tags = "短信集成")
 @RestController
+@TakeTime
 @Validated
 @RequestMapping("/sys")
 public class SendSmsCodeController {
@@ -53,7 +56,7 @@ public class SendSmsCodeController {
         int statusCode = client.executeMethod(method);
         if (200 == statusCode){
             byte[] responseBody = method.getResponseBody();
-            String str = new String(responseBody,"utf-8");
+            String str = new String(responseBody, StandardCharsets.UTF_8);
             JSONObject jsonObject = JSON.parseObject(str);
             if("fail".equals(jsonObject.get("result"))) {
                 log.info("请求结果为：" + str);

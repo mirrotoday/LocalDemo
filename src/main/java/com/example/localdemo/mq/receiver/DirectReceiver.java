@@ -9,6 +9,7 @@ import com.example.localdemo.mq.config.RedisKeyConstant;
 import com.example.localdemo.mq.entity.MailVO;
 import com.example.localdemo.result.ApiResult;
 import com.example.localdemo.utils.CodeUtils;
+import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.PostMethod;
@@ -24,7 +25,9 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StopWatch;
 
 import javax.annotation.Resource;
+import javax.mail.AuthenticationFailedException;
 import javax.mail.internet.MimeMessage;
+import java.io.IOException;
 import java.time.Duration;
 
 /**
@@ -32,7 +35,7 @@ import java.time.Duration;
  * @date 2023/3/6 15:39
  * @description TODO
  */
-@Component
+//@Component
 @Slf4j
 public class DirectReceiver {
     @Resource
@@ -46,26 +49,26 @@ public class DirectReceiver {
 
     //监听消息(消费者1)
     @RabbitListener(queues = "mail-queue")
-    public void directHandlerOne(String msg){
+    public void directHandlerOne(String msg, Channel channel) throws IOException {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
         log.info("directHandler【One】开始消费接口：msg为 = " + msg);
-        sendMail(msg,"directHandlerOne");
+        sendMail(msg,"directHandlerOne",channel);
         stopWatch.stop();
         log.info("directHandlerOne消费耗时："+stopWatch.getTotalTimeMillis()+"ms");
     }
     //监听消息(消费者2)
     @RabbitListener(queues = "mail-queue")
-    public void directHandlerTwo(String msg){
+    public void directHandlerTwo(String msg, Channel channel) throws IOException {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
         log.info("directHandler【Two】开始消费接口：msg为 = " + msg);
-        sendMail(msg,"directHandlerTwo");
+        sendMail(msg,"directHandlerTwo",channel);
         stopWatch.stop();
         log.info("directHandlerTwo消费耗时："+stopWatch.getTotalTimeMillis()+"ms");
     }
     @Transactional
-    public void sendMail(String msg,String type) {
+    public void sendMail(String msg,String type,Channel channel) throws IOException {
         Message emailVo = JSONUtil.toBean(msg, Message.class);
         //设置消费者
         emailVo.setQueuesname(type);
@@ -75,10 +78,16 @@ public class DirectReceiver {
         message.setTo(emailVo.getReceiver());
         message.setSubject(emailVo.getTitle());
         message.setText(emailVo.getContent());
-        mailSender.send(message);
+        try{
+            mailSender.send(message);
+        }catch (Exception e){
+            channel.basicCancel(msg);
+            throw new RuntimeException(e.getMessage());
+        }
         log.info("邮件已经发送至："+emailVo.getReceiver());
         messageMapper.insert(emailVo);
         log.info("数据存储成功："+emailVo.getId());
+
         //将验证码存储到Redis
         String key = RedisKeyConstant.verify_code.getKey() + emailVo.getReceiver();
         stringRedisTemplate.opsForValue().set(key,emailVo.getCode(), Duration.ofMinutes(5));

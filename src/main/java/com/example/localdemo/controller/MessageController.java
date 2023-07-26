@@ -1,5 +1,6 @@
 package com.example.localdemo.controller;
 
+import com.example.localdemo.annotation.TakeTime;
 import com.example.localdemo.entity.Message;
 import com.example.localdemo.result.ApiResult;
 import com.example.localdemo.service.MessageService;
@@ -22,19 +23,21 @@ import java.util.List;
 public class MessageController {
     @Resource
     private MessageService messageService;
-
+    @TakeTime
     @ApiOperation("批量发送邮件")
     @PostMapping("/sendBatchMail")
      public ApiResult<T> sendBatchMail(@RequestBody List<String> mail) {
          int messageCount = messageService.sendMessageMail(mail);
          return new ApiResult<T>().success("邮件发送成功，共计："+messageCount);
      }
+    @TakeTime
     @ApiOperation("获取邮件发送日志")
     @GetMapping("/getMailLog")
     public ApiResult<List<Message>> getMailLog() {
         List<Message> data = messageService.selectAll();
         return new ApiResult<List<Message>>().result(data,data.size());
     }
+    @TakeTime
     @ApiOperation("根据ID获取邮件发送日志")
     @GetMapping("/getMailLogById/{id}")
     public ApiResult<List<Message>> getMailLogById(@PathVariable("id") String id) {

@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * @date 2023/4/2 19:33
  * @description TODO
  */
-@Configuration
+//@Configuration
 public class InitCanalConfig implements CommandLineRunner {
 
     @Resource
@@ -19,7 +19,7 @@ public class InitCanalConfig implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-       // canalUtil.run();
+        canalUtil.run();
     }
 }
 

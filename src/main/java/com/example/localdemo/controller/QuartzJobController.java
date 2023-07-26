@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.example.localdemo.annotation.TakeTime;
+import com.example.localdemo.authentication.Token;
 import com.example.localdemo.entity.QuartzJob;
 import com.example.localdemo.result.ApiResult;
 import com.example.localdemo.service.IQuartzJobService;
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.constraints.NotNull;
 
 /**
  * @author xieteng
@@ -45,16 +48,15 @@ public class QuartzJobController {
 
     /**
      * 分页查询列表数据
-     * @param quartzJob
      * @param pageNo 页码
      * @param pageSize 每一页多少条数据
-     * @param req
      * @return
      */
+    @TakeTime
     @Operation(summary ="后台事务-分页查询")
     @GetMapping("/list")
-    public ApiResult<?> queryPageList(QuartzJob quartzJob, @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo,
-                                      @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize, HttpServletRequest req) {
+    public ApiResult<?> queryPageList(@RequestParam(name = "pageNo") @NotNull Integer pageNo,
+                                      @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize) {
         LambdaQueryWrapper<QuartzJob> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.orderByDesc(QuartzJob::getId);
         Page<QuartzJob> page = new Page<QuartzJob>(pageNo, pageSize);
@@ -66,6 +68,7 @@ public class QuartzJobController {
      * @param quartzJob
      * @Validated 注解进行校验数据 https://blog.csdn.net/sj13074480550/article/details/103399503
      */
+    @TakeTime
     @Operation(summary ="后台事务-新增")
     @PostMapping("/add")
     public ApiResult<?> addJob(@Validated @RequestBody QuartzJob quartzJob) {
@@ -80,6 +83,8 @@ public class QuartzJobController {
      * 启动后台事务
      * @param quartzJob
      */
+    @Token
+    @TakeTime
     @Operation(summary ="后台事务-执行")
     @PostMapping("/execute")
     public ApiResult<?> executeJob(@RequestBody QuartzJob quartzJob){
@@ -89,6 +94,7 @@ public class QuartzJobController {
      * 修改后台事务
      * @param quartzJob
      */
+    @TakeTime
     @Operation(summary ="后台事务-编辑")
     @PostMapping("/edit")
     public ApiResult<?> editJob(@RequestBody QuartzJob quartzJob){
@@ -104,6 +110,7 @@ public class QuartzJobController {
      * @param id 必填
      * /sys/quartzJob/deleteJob?id="ID"
      */
+    @TakeTime
     @Operation(summary ="后台事务-删除")
     @DeleteMapping("/delete")
     public void deleteJob(@RequestParam(name = "id", required = true) String id){
@@ -113,6 +120,7 @@ public class QuartzJobController {
      * 暂停后台事务
      * @param quartzJob
      */
+    @TakeTime
     @Operation(summary ="后台事务-停止")
     @PostMapping("/pause")
     public ApiResult<?> pauseJob(@RequestBody QuartzJob quartzJob){

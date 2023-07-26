@@ -4,6 +4,7 @@ import cn.hutool.core.lang.id.NanoId;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.gitee.sunchenbin.mybatis.actable.annotation.Column;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -31,44 +32,52 @@ public class Timequartz implements Serializable {
     /**
      * 
      */
+    @Column(name  = "number")
     private String number;
 
     /**
      * 
      */
+    @Column(name  = "classname")
     private String classname;
 
     /**
      * 
      */
+    @Column(name  = "classmethod")
     private String classmethod;
 
     /**
      * 
      */
+    @Column(name  = "cron")
     private String cron;
 
     /**
      * 
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    @Column(name  = "creattime")
     private Date creattime;
 
     /**
      * 
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    @Column(name  = "effdatetime")
     private Date effdatetime;
 
     /**
      * 
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    @Column(name  = "leffdatetime")
     private Date leffdatetime;
 
     /**
      * 
      */
+    @Column(name  = "status")
     private Integer status;
 
     @Override

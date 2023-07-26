@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf login</title>
+</head>
+<body>
+<form class="login_main">
+    <p class="login_info">登录</p>
+    <input id="username" type="text" name="username" placeholder="username"><p>
+    <input id="password" type="password" name="password" placeholder="password"><p>
+    <input id="smsCode" type="text" name="smsCode" placeholder="验证码">
+    <a href="javascript:void(0);" title="点击更换验证码">
+        <img th:src="@{/api/user/getValidateCode}" onclick="changeCode()" class="verifyCode">
+    </a>
+    <p>
+    <button class="login_btn" type="button" onclick="login()">sign in</button>
+
+</form>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+    function changeCode() {
+        const src = "/api/user/getValidateCode";
+        $('.verifyCode').attr("src", src);
+    }
+    function login() {
+        var inputValue = document.getElementById("username").value;
+        console.log(inputValue)
+        $.ajax({
+            url: "http://localhost:9099/api/user/login",
+            type: "POST",
+            dataType: "json",
+            data : {"userName":document.getElementById("username").value,
+                    "passWord":document.getElementById("password").value,
+                    "smsCode":document.getElementById("smsCode").value
+            },
+            success: function (result) {
+                console.log(result)
+            }
+        })
+    }
+
+
+</script>
+</html>

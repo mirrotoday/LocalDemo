@@ -114,14 +114,10 @@ public class QuartzJobServiceImpl extends ServiceImpl<QuartzJobMapper, QuartzJob
             // 按新的cronExpression表达式构建一个新的trigger
             CronTrigger trigger = TriggerBuilder.newTrigger().withIdentity(id).withSchedule(scheduleBuilder).build();
             scheduler.scheduleJob(jobDetail, trigger);
-        } catch (SchedulerException e) {
-            return new ApiResult<>().error(e.getMessage());
-        } catch (RuntimeException e) {
-            return new ApiResult<>().error(e.getMessage());
         } catch (Exception e) {
-            return new ApiResult<>().error("后台找不到该类名：" + classNasme);
+            throw new RuntimeException();
         }
-        return null;
+        return new ApiResult<>().success("启动成功");
     }
 
     /**
