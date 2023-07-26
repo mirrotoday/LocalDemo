@@ -1,11 +1,18 @@
 package com.example.localdemo;
 
 import cn.hutool.core.date.DateUtil;
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.example.localdemo.authentication.JwtVerifyResult;
 import com.example.localdemo.authentication.UtilJwt;
-import com.example.localdemo.config.Knife4j3Config;
+
+import com.example.localdemo.design_pattern.behaviour_model.strategy.Context;
+import com.example.localdemo.design_pattern.behaviour_model.strategy.Strategy;
+import com.example.localdemo.design_pattern.behaviour_model.strategy.StrategyA;
+import com.example.localdemo.design_pattern.behaviour_model.strategy.StrategyB;
+import com.example.localdemo.design_pattern.create_model.builder.Builder;
+import com.example.localdemo.design_pattern.create_model.builder.ConcreteBuilder;
+import com.example.localdemo.design_pattern.create_model.builder.Director;
+import com.example.localdemo.design_pattern.create_model.builder.Product;
+import com.example.localdemo.design_pattern.create_model.singleton.SingletonPatternLazy;
 import com.example.localdemo.entity.Person;
 
 import lombok.extern.slf4j.Slf4j;
@@ -13,13 +20,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.annotation.Resource;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 @Slf4j
@@ -39,20 +43,10 @@ class LocalDemoApplicationTests {
     void contextLoads() throws ParseException {
         //获取交给Spring管理的Bean对象
         //Knife4j3Config knife4j3Config = (Knife4j3Config) context.getBean("Knife4j3Config");
-        Map<String,String> payload = new HashMap<>();
-        payload.put("uuid","345345");//可以设置成数据库员工的唯一主键ID
-        payload.put("ts", DateUtil.current()+"");
+        //hutoolTokenID();
+        //ConcreteBuilder 继承了 Builder 并初始化产品类型对象
 
-        String token = UtilJwt.createToken(payload,appkey,appsecret);
-        System.out.println(token);
 
-        JwtVerifyResult jwtVerifyResult = UtilJwt.validateToken(token,appkey,appsecret);
-        if(jwtVerifyResult.getSuccess()){
-            payload = jwtVerifyResult.getPayload();
-            System.out.println("负载："+payload.toString());
-        }else{
-            System.out.println("验证失败："+jwtVerifyResult.toString());
-        }
 //    JSONArray dd = JSONObject.parseArray(cc);
 //        System.out.println(dd.size());
 //        for (int i = 0; i < dd.size(); i++) {
@@ -100,6 +94,22 @@ class LocalDemoApplicationTests {
 //            System.out.println("当前时间小于parse2，就相当于parse2没过期");
 //        }
  //       System.out.println(formatDuration(parse1,parse2));
+    }
+    private static void hutoolTokenID() {
+        Map<String,String> payload = new HashMap<>();
+        payload.put("uuid","345345");//可以设置成数据库员工的唯一主键ID
+        payload.put("ts", DateUtil.current()+"");
+
+        String token = UtilJwt.createToken(payload,appkey,appsecret);
+        System.out.println(token);
+
+        JwtVerifyResult jwtVerifyResult = UtilJwt.validateToken(token,appkey,appsecret);
+        if(jwtVerifyResult.getSuccess()){
+            payload = jwtVerifyResult.getPayload();
+            System.out.println("负载："+payload.toString());
+        }else{
+            System.out.println("验证失败："+jwtVerifyResult.toString());
+        }
     }
     public static String formatDuration(Date startTime, Date endTime) {
         if (null == startTime || null == endTime || startTime.after(endTime)) {
