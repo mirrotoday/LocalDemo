@@ -14,8 +14,6 @@ import com.example.localdemo.result.ApiResult;
 import com.example.localdemo.service.UserService;
 import com.example.localdemo.utils.CaptchaCode;
 import com.example.localdemo.utils.MD5Util;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.validation.annotation.Validated;
@@ -32,7 +30,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2023/7/17 21:41
  * @description TODO
  */
-@Api(tags = "登录模块")
+//@Api(tags = "登录模块")
 @RestController
 @RequestMapping("/api/user")
 public class LoginController {
@@ -42,13 +40,13 @@ public class LoginController {
     UserService userService;
 
     @TakeTime
-    @ApiOperation("登录")
+//    @ApiOperation("登录")
     @PostMapping("/login")
     public ApiResult<?> validate(@RequestBody @Validated LoginArgs loginArgs,HttpServletRequest res) throws Exception{
         return userService.login(loginArgs,res);
     }
     @TakeTime
-    @ApiOperation("注册")
+//    @ApiOperation("注册")
     @PostMapping("/adduser")
     public ApiResult<?> addUser(@RequestBody @Validated RegisterUserArgs registerUserArgs) throws Exception{
         boolean isRegister = userService.register(registerUserArgs);
@@ -59,7 +57,7 @@ public class LoginController {
     }
     @Token
     @TakeTime
-    @ApiOperation("密码重置")
+//    @ApiOperation("密码重置")
     @PostMapping("/reset")
     public ApiResult<?> reSet(@RequestBody @Validated ResetUserArgs resetUserArgs) throws Exception{
         User userInfo = userService.getPass(resetUserArgs.getUserName());
@@ -74,7 +72,7 @@ public class LoginController {
     }
     @Token
     @PostMapping("/exit")
-    @ApiOperation(value = "注销登录")
+//    @ApiOperation(value = "注销登录")
     public void exit(HttpServletRequest res) throws Exception{
         String token = "Token:" + res.getHeader("token");
         if (Boolean.TRUE.equals(stringRedisTemplate.hasKey(token))) {
@@ -82,7 +80,7 @@ public class LoginController {
         }
     }
     @GetMapping("/getValidateCode/{userName}")
-    @ApiOperation(value = "获取验证码")
+//    @ApiOperation(value = "获取验证码")
     public void getValidateCode(@PathVariable("userName") String userName,HttpServletResponse response) {
         response.setHeader("Cache-Control", "no-store,no-cache");
         response.setContentType("image/jpeg");

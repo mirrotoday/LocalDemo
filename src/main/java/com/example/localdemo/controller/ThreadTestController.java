@@ -28,4 +28,9 @@ public class ThreadTestController {
         Object res = threadTestService.execOne();
         return String.valueOf(res);
     }
+    @GetMapping("/execList")
+    public String execListThread(){
+        threadTestService.execList();
+        return "执行成功";
+    }
 }

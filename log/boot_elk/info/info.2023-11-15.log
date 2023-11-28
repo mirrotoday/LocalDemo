@@ -1,0 +1,730 @@
+2023-11-15 18:58:28 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 18:58:28 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 18184 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 18:58:28 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 18:58:30 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 18:58:30 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 18:58:30 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2023-11-15 18:58:31 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 18:58:31 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$45a882c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 18:58:31 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 18:58:31 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 18:58:31 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 18:58:31 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 18:58:31 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 18:58:31 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 18:58:31 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2758 ms
+2023-11-15 18:58:32 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 18:58:32 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 18:58:32 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 18:58:32 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 18:58:32 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 18:58:32 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 18:58:32 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 18:58:32 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 18:58:32 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 18:58:34 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 18:58:39 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 18:58:39 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 18:58:39 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 18:58:39 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 18:58:39 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 18:58:39 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 18:58:39 INFO  LocalDemo main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2023-11-15 18:58:39 INFO  LocalDemo main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-15 18:59:11 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 18:59:11 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 17096 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 18:59:11 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 18:59:13 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 18:59:13 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 18:59:13 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2023-11-15 18:59:14 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 18:59:14 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1604b4b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 18:59:14 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 18:59:15 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 18:59:15 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 18:59:15 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 18:59:15 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 18:59:15 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 18:59:15 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3878 ms
+2023-11-15 18:59:15 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 18:59:16 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 18:59:16 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 18:59:16 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 18:59:16 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 18:59:16 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 18:59:16 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 18:59:16 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 18:59:16 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 18:59:18 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 18:59:22 INFO  LocalDemo redisson-netty-2-5 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 18:59:22 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 18:59:26 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3ac326c0
+2023-11-15 18:59:28 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 18:59:28 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 18:59:28 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 18:59:28 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:30 INFO  LocalDemo main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: connect
+2023-11-15 18:59:30 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:32 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:34 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 18:59:34 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 18:59:34 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 24.782 seconds (JVM running for 27.556)
+2023-11-15 18:59:34 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:37 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 18:59:37 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 18:59:37 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-11-15 18:59:39 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@363e2009: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-11-15 18:59:39 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:41 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:48 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@1e84c913: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-11-15 18:59:48 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:50 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 18:59:58 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@17fc7d8e: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-11-15 18:59:58 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:00:00 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:00:07 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@772b0202: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-11-15 19:00:07 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:00:09 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:00:11 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#1f68e4e8:11/SimpleConnection@2d17943b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55167]
+2023-11-15 19:00:19 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:00:19 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:00:20 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-6 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:00:21 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:00:48 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:00:48 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 3412 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:00:48 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:00:49 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:00:49 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:00:50 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:00:50 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:00:50 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$19835394] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:00:50 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:00:51 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:00:51 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:00:51 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:00:51 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:00:51 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:00:51 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2843 ms
+2023-11-15 19:00:51 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:00:51 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:00:51 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:00:51 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:00:51 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:00:51 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:00:51 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:00:51 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:00:51 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:00:53 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:00:57 INFO  LocalDemo redisson-netty-2-7 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:00:57 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:01:00 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4db4431b
+2023-11-15 19:01:02 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:01:02 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:01:02 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:01:02 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:01:02 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#6ca33187:0/SimpleConnection@5935eb9c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55293]
+2023-11-15 19:01:02 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:01:02 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:01:02 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 15.559 seconds (JVM running for 19.138)
+2023-11-15 19:01:04 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:01:04 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:01:04 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 3 ms
+2023-11-15 19:03:18 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:03:18 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:03:18 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:03:19 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:03:19 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:03:19 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:03:19 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:03:19 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:03:19 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:03:20 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:03:20 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:03:20 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:03:20 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:03:20 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:03:50 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:03:50 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 4644 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:03:50 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:03:52 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:03:52 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:03:52 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:03:53 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:03:53 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$acace32f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:03:53 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:03:53 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:03:53 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:03:53 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:03:53 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:03:53 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:03:53 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3013 ms
+2023-11-15 19:03:54 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:03:54 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:03:54 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:03:54 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:03:54 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:03:54 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:03:54 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:03:54 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:03:54 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:03:56 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:03:59 INFO  LocalDemo redisson-netty-2-5 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:03:59 INFO  LocalDemo redisson-netty-2-18 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:04:03 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@68303c3e
+2023-11-15 19:04:05 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:04:05 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:04:05 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:04:05 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:04:05 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#380fdcf2:0/SimpleConnection@78723798 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55558]
+2023-11-15 19:04:05 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:04:05 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:04:05 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 15.989 seconds (JVM running for 19.32)
+2023-11-15 19:04:08 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:04:08 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:04:08 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-11-15 19:06:46 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:06:46 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:06:46 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:06:48 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:07:10 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:07:10 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 15340 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:07:10 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:07:12 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:07:12 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:07:12 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:07:13 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:07:13 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$19835394] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:07:13 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:07:14 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:07:14 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:07:14 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:07:14 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:07:14 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:07:14 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3210 ms
+2023-11-15 19:07:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:07:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:07:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:07:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:07:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:07:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:07:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:07:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:07:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:07:16 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:07:20 INFO  LocalDemo redisson-netty-2-7 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:07:20 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:07:24 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@17f8cad6
+2023-11-15 19:07:26 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:07:26 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:07:26 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:07:26 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:07:26 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2f6e92ca:0/SimpleConnection@28532753 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55777]
+2023-11-15 19:07:26 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:07:26 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:07:26 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 17.07 seconds (JVM running for 19.595)
+2023-11-15 19:07:29 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:07:29 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:07:29 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2023-11-15 19:07:30 INFO  LocalDemo http-nio-9099-exec-2 com.example.localdemo.controller.SendSmsCodeController [name=client_id, value=201230, name=client_secret, value=87d7c0ca9ee7ea84b15e68f1fad10c47, name=phone, value=15351269686, name=smscode, value=10725, name=content, value=你的验证码为：1724745938829836288, name=country_code, value=86, name=signature, value=思宇定制]
+2023-11-15 19:08:01 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:08:01 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:08:02 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:08:03 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:08:03 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:08:03 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:08:03 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:08:03 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:08:04 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:08:04 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:08:04 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:08:04 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:08:04 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:08:04 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:08:25 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:08:25 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 4436 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:08:25 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:08:27 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:08:27 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:08:27 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:08:28 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:08:28 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ddc54fa0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:08:28 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:08:28 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:08:28 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:08:28 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:08:28 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:08:28 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:08:28 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3141 ms
+2023-11-15 19:08:29 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:08:29 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:08:29 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:08:29 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:08:29 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:08:29 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:08:29 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:08:29 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:08:29 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:08:31 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:08:35 INFO  LocalDemo redisson-netty-2-6 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:08:35 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:08:39 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2213854b
+2023-11-15 19:08:41 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:08:41 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:08:41 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:08:41 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:08:41 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#8d810f2:0/SimpleConnection@35d62807 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55955]
+2023-11-15 19:08:41 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:08:41 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:08:41 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 17.048 seconds (JVM running for 19.299)
+2023-11-15 19:08:41 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:08:41 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:08:41 INFO  LocalDemo RMI TCP Connection(3)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 3 ms
+2023-11-15 19:11:21 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:11:21 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:11:21 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:11:23 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:11:44 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:11:44 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 3988 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:11:44 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:11:46 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:11:46 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:11:46 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 51 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:11:47 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:11:47 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d3ae58dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:11:47 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:11:47 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:11:47 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:11:47 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:11:47 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:11:47 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:11:47 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2858 ms
+2023-11-15 19:11:48 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:11:48 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:11:48 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:11:48 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:11:48 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:11:48 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:11:48 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:11:48 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:11:48 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:11:50 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:11:53 INFO  LocalDemo redisson-netty-2-7 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:11:53 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:11:57 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@d99df7a
+2023-11-15 19:11:59 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:11:59 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:11:59 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:11:59 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:11:59 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#114b203:0/SimpleConnection@4d73d3d1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56675]
+2023-11-15 19:11:59 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:11:59 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:11:59 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 16.247 seconds (JVM running for 18.494)
+2023-11-15 19:11:59 INFO  LocalDemo http-nio-9099-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:11:59 INFO  LocalDemo http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:11:59 INFO  LocalDemo http-nio-9099-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-11-15 19:12:00 INFO  LocalDemo http-nio-9099-exec-1 com.example.localdemo.controller.SendSmsCodeController [name=client_id, value=201230, name=client_secret, value=87d7c0ca9ee7ea84b15e68f1fad10c47, name=phone, value=15351269686, name=smscode, value=10725, name=content, value=你的验证码为1724747068645310464, name=country_code, value=86, name=signature, value=思宇定制]
+2023-11-15 19:12:31 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:12:31 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:12:32 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:12:33 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:12:53 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:12:53 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 2236 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:12:53 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:12:54 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:12:54 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:12:54 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:12:55 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:12:55 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9ad6b733] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:12:55 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:12:55 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:12:55 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:12:55 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:12:55 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:12:55 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:12:55 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2839 ms
+2023-11-15 19:12:56 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:12:56 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:12:56 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:12:56 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:12:56 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:12:56 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:12:56 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:12:56 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:12:56 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:12:58 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:13:01 INFO  LocalDemo redisson-netty-2-7 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:13:01 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:13:05 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@27e3dc9a
+2023-11-15 19:13:07 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:13:07 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:13:07 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:13:07 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:13:07 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2faf6e4a:0/SimpleConnection@332610ad [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56848]
+2023-11-15 19:13:07 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:13:07 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:13:07 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 15.788 seconds (JVM running for 18.003)
+2023-11-15 19:13:09 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:13:09 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:13:09 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-11-15 19:13:49 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:13:49 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:13:49 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:13:51 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:14:11 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:14:11 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 3320 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:14:11 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:14:12 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:14:12 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:14:12 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:14:13 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:14:13 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$bc60e408] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:14:13 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:14:13 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:14:13 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:14:13 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:14:13 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:14:14 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:14:14 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2967 ms
+2023-11-15 19:14:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:14:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:14:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:14:14 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:14:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:14:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:14:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:14:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:14:14 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:14:16 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:14:19 INFO  LocalDemo redisson-netty-2-7 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:14:19 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:14:23 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@72641613
+2023-11-15 19:14:24 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:14:25 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:14:25 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:14:25 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:14:25 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#25421809:0/SimpleConnection@28d37d43 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57027]
+2023-11-15 19:14:25 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:14:25 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:14:25 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 15.344 seconds (JVM running for 17.602)
+2023-11-15 19:14:25 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:14:25 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:14:25 INFO  LocalDemo RMI TCP Connection(1)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-11-15 19:14:33 INFO  LocalDemo http-nio-9099-exec-1 com.example.localdemo.controller.SendSmsCodeController [name=client_id, value=201230, name=client_secret, value=87d7c0ca9ee7ea84b15e68f1fad10c47, name=phone, value=15351269686, name=smscode, value=10725, name=content, value=你的验证码为:1724747713855094784, name=country_code, value=86, name=signature, value=思宇定制]
+2023-11-15 19:15:49 INFO  LocalDemo http-nio-9099-exec-2 com.example.localdemo.controller.SendSmsCodeController [name=client_id, value=201230, name=client_secret, value=87d7c0ca9ee7ea84b15e68f1fad10c47, name=phone, value=15351269686, name=smscode, value=10725, name=content, value=你的验证码为:1724748029447110656, name=country_code, value=86, name=signature, value=思宇定制]
+2023-11-15 19:16:00 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:16:00 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:16:01 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:16:02 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:16:22 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:16:22 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 13288 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:16:22 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:16:24 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:16:24 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:16:24 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:16:24 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:16:24 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1f1ba068] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:16:24 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:16:25 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:16:25 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:16:25 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:16:25 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:16:25 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:16:25 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2729 ms
+2023-11-15 19:16:25 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:16:25 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:16:25 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:16:25 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:16:25 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:16:25 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:16:25 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:16:25 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:16:25 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:16:27 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:16:31 INFO  LocalDemo redisson-netty-2-7 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:16:31 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:16:35 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@35d2312f
+2023-11-15 19:16:36 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:16:37 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:16:37 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:16:37 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:16:37 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3ca278bc:0/SimpleConnection@4ee1c29a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57255]
+2023-11-15 19:16:37 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:16:37 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:16:37 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 16.07 seconds (JVM running for 18.289)
+2023-11-15 19:16:38 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:16:38 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:16:38 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2023-11-15 19:16:43 INFO  LocalDemo http-nio-9099-exec-1 com.example.localdemo.controller.SendSmsCodeController [name=client_id, value=201230, name=client_secret, value=87d7c0ca9ee7ea84b15e68f1fad10c47, name=phone, value=15351269686, name=smscode, value=10725, name=content, value=你的验证码为:1724748256384122880, name=country_code, value=86, name=signature, value=思宇定制]
+2023-11-15 19:20:36 INFO  LocalDemo http-nio-9099-exec-4 com.example.localdemo.controller.SendSmsCodeController 请求结果为：{"message":"已推送到发送队列","result":"success"}
+2023-11-15 19:20:36 INFO  LocalDemo http-nio-9099-exec-4 com.example.localdemo.controller.SendSmsCodeController 验证码为：b3me
+2023-11-15 19:24:35 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:24:35 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:24:35 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:24:36 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2023-11-15 19:24:58 INFO  LocalDemo background-preinit org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+2023-11-15 19:24:58 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Starting LocalDemoApplication using Java 1.8.0_291 on LAPTOP-BN3IUSRS with PID 5456 (H:\Java Idea Project\LocalDemo\target\classes started by siyu in H:\Java Idea Project\LocalDemo)
+2023-11-15 19:24:58 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication The following 1 profile is active: "prod"
+2023-11-15 19:25:00 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-15 19:25:00 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-15 19:25:00 INFO  LocalDemo main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2023-11-15 19:25:01 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:25:01 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$fdaefec9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:25:01 INFO  LocalDemo main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-15 19:25:01 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9099 (http)
+2023-11-15 19:25:01 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:25:01 INFO  LocalDemo main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-11-15 19:25:01 INFO  LocalDemo main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-11-15 19:25:01 INFO  LocalDemo main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-11-15 19:25:01 INFO  LocalDemo main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2891 ms
+2023-11-15 19:25:02 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-1,master} inited
+2023-11-15 19:25:02 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-2,mysql} inited
+2023-11-15 19:25:02 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-3,sqlserver} inited
+2023-11-15 19:25:02 INFO  LocalDemo main com.alibaba.druid.pool.DruidDataSource {dataSource-4,Oracle} inited
+2023-11-15 19:25:02 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [sqlserver] success
+2023-11-15 19:25:02 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [mysql] success
+2023-11-15 19:25:02 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [Oracle] success
+2023-11-15 19:25:02 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - add a datasource named [master] success
+2023-11-15 19:25:02 INFO  LocalDemo main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [4] datasource,primary datasource named [master]
+2023-11-15 19:25:04 INFO  LocalDemo main org.redisson.Version Redisson 3.17.3
+2023-11-15 19:25:07 INFO  LocalDemo redisson-netty-2-5 org.redisson.connection.pool.MasterPubSubConnectionPool 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:25:07 INFO  LocalDemo redisson-netty-2-19 org.redisson.connection.pool.MasterConnectionPool 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2023-11-15 19:25:11 INFO  LocalDemo main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58932d08
+2023-11-15 19:25:12 INFO  LocalDemo main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-15 19:25:12 INFO  LocalDemo main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9099"]
+2023-11-15 19:25:12 INFO  LocalDemo main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9099 (http) with context path ''
+2023-11-15 19:25:12 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2023-11-15 19:25:12 INFO  LocalDemo main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2336cd91:0/SimpleConnection@8cd2bb5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57631]
+2023-11-15 19:25:13 INFO  LocalDemo main org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now
+2023-11-15 19:25:13 INFO  LocalDemo main org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-11-15 19:25:13 INFO  LocalDemo main com.example.localdemo.LocalDemoApplication Started LocalDemoApplication in 15.211 seconds (JVM running for 17.463)
+2023-11-15 19:25:15 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15 19:25:15 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-11-15 19:25:15 INFO  LocalDemo RMI TCP Connection(2)-169.254.202.235 org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2023-11-15 19:26:04 INFO  LocalDemo http-nio-9099-exec-2 com.example.localdemo.controller.SendSmsCodeController 请求结果为{"errcode":0,"description":"ok","description_cn":"短信发送成功","phone":"15351269686","smsid":63659404550,"fee":1}：
+2023-11-15 19:26:04 INFO  LocalDemo http-nio-9099-exec-2 com.example.localdemo.controller.SendSmsCodeController 请求参数为[name=client_id, value=201230, name=client_secret, value=87d7c0ca9ee7ea84b15e68f1fad10c47, name=phone, value=15351269686, name=smscode, value=10725, name=content, value=你的验证码为:uzdh, name=country_code, value=86, name=signature, value=思宇定制]：
+2023-11-15 19:26:48 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:26:48 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2023-11-15 19:26:48 INFO  LocalDemo org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is already stopped
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook org.springframework.scheduling.quartz.SchedulerFactoryBean Shutting down Quartz Scheduler
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook org.quartz.core.QuartzScheduler Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-4} closed
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-11-15 19:26:50 INFO  LocalDemo SpringApplicationShutdownHook com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye

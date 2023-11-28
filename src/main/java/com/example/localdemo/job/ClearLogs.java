@@ -21,8 +21,10 @@ public class ClearLogs implements Job {
     @SneakyThrows
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
+
         log.info("===============[start]进入执行日志清理脚本的后台事务===============");
-        Process process = Runtime.getRuntime().exec("notepad.exe");
+        //String cmd = "cmd /C del /f /s /q C:\\tmp\\*.*";
+        Process process = Runtime.getRuntime().exec("cmd /C ipconfig");
         //取得命令结果的输出流
         InputStream inputStream = process.getInputStream();
         //用一个读输出流类去读
@@ -35,5 +37,9 @@ public class ClearLogs implements Job {
             log.info("读取的行数据为:"+line);
         }
         log.info("===============[end]脚本执行完毕===============");
+
+
+
+
     }
 }

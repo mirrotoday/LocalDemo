@@ -8,4 +8,6 @@ package com.example.localdemo.service;
 public interface ThreadTestService {
     Object execOne();
     void execList();
+
+    void otherThread();
 }

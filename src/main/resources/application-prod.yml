@@ -45,8 +45,8 @@ spring:
 #邮箱
   mail:
     host: smtp.qq.com
-    username: 1983870262@qq.com
-    password: ijccoqiblhnqbagg
+    username: 457178980@qq.com
+    password: pipgfrebwenlbjbh
     default-encoding: utf-8
     port: 465
     properties:
@@ -54,13 +54,13 @@ spring:
         smtp:
           socketFactory:
             class: javax.net.ssl.SSLSocketFactory
-        debug: true
+        debug: false
 #redis
   redis:
     database: 0           #redis数据库索引（默认为0）
     host: 127.0.0.1       #redis服务器ip，由于我是搭建在本地，固指向本地ip
     port: 6379            #redis服务器连接端口
-    password:             #redis服务器连接密码（默认为空）
+#    password:             #redis服务器连接密码（默认为空）
   # 连接池配置
   jedis.pool:
     max-active: 20      #连接池最大连接数（使用负值表示没有限制）
@@ -87,7 +87,8 @@ mybatis:
 
 
 mybatis-plus:
-  mapper-locations: classpath*:mapper/*.xml,classpath*:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
+  mapper-locations: classpath*:mapper/*.xml
+  #,classpath*:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     mapUnderscoreToCamelCase: false

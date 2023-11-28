@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.localdemo.mapper.UserMapper">
     <update id="reSetUserPass">
-            update user set password = #{newPass} where username = #{userName}
+        update user set password = #{newPass} where username = #{userName}
     </update>
 </mapper>

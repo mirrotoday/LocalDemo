@@ -23,9 +23,6 @@ public class SmsCodeArgs {
 
     String sys;
 
-    @Pattern(regexp = "1[3456789][0-9]{9}",message = "手机号不符合格式")
-    @NotBlank(message = "手机号不能为空！")
-    String mobile;
 
     public SmsCodeArgs(){
         this.code = CodeUtils.getMailCode(4);

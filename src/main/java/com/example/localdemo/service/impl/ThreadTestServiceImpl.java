@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Future;
 
 /**
@@ -21,13 +23,12 @@ import java.util.concurrent.Future;
 @Service
 public class ThreadTestServiceImpl implements ThreadTestService {
     @Resource
-    ThreadPoolConfig threadPoolConfig;
+    private ThreadPoolConfig threadPoolConfig;
     @SneakyThrows
     @Override
     public Object execOne() {
-        int a = 1/0;
         List<String> execData = new ArrayList<>();
-        Future<List<String>> smsThread = (Future<List<String>>) threadPoolConfig.smsSendTask().submit(() -> {
+        Future<List<String>> smsThread = threadPoolConfig.smsSendTask().submit(() -> {
             for (int i = 0; i < 10; i++) {
                 try {
                     Thread.sleep(2000);
@@ -44,6 +45,32 @@ public class ThreadTestServiceImpl implements ThreadTestService {
 
     @Override
     public void execList() {
-
+        String[] phone = {"15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591",
+                          "15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591","15520884591"};
+        for (String phoneNumber : phone) {
+            Runnable  smsService = new smsService(phoneNumber);
+            threadPoolConfig.smsSendTask().execute(smsService);
+        }
     }
+
+    @Override
+    public void otherThread() {
+        ConcurrentHashMap<String, Object> map = new ConcurrentHashMap<>();
+        map.put("key",Thread.activeCount());
+
+        ConcurrentLinkedQueue<Object> cc = new ConcurrentLinkedQueue<>();
+    }
+
+    class smsService implements Runnable{
+        private final String phoneNumber;
+        public smsService(String phone){
+            this.phoneNumber =  phone;
+        }
+        @Override
+        public void run() {
+            log.info("核心线程数：{},线程名称：{}，调用时间:{},电话号码：{}，消息发送成功！",
+                    Runtime.getRuntime().availableProcessors(),Thread.currentThread().getName(),DateUtils.getNow(),phoneNumber);
+        }
+    }
+
 }

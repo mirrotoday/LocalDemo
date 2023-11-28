@@ -9,8 +9,7 @@ import com.example.localdemo.authentication.Token;
 import com.example.localdemo.entity.QuartzJob;
 import com.example.localdemo.result.ApiResult;
 import com.example.localdemo.service.IQuartzJobService;
-import io.swagger.annotations.Api;
-import io.swagger.v3.oas.annotations.Operation;
+
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Result;
 import org.quartz.*;
@@ -27,7 +26,7 @@ import javax.validation.constraints.NotNull;
  * @description TODO
  * 1.添加后台事务 2.修改后台事务 3.根据ID删除后他事务 4.分页查询所有后台事务 5.启动后台事务 6.停止后台事务
  */
-@Api(tags = "后台事务")
+//@Api(tags = "后台事务")
 @Slf4j
 @RestController
 @RequestMapping("/sys/quartzJob")
@@ -40,7 +39,7 @@ public class QuartzJobController {
      * @param id
      * 返回整个对象
      */
-    @Operation(summary ="后台事务-根据ID查询")
+//    @Operation(summary ="后台事务-根据ID查询")
     @GetMapping("/queryById")
     public void queryById(@RequestParam(name = "id", required = true) String id){
 
@@ -53,7 +52,7 @@ public class QuartzJobController {
      * @return
      */
     @TakeTime
-    @Operation(summary ="后台事务-分页查询")
+//    @Operation(summary ="后台事务-分页查询")
     @GetMapping("/list")
     public ApiResult<?> queryPageList(@RequestParam(name = "pageNo") @NotNull Integer pageNo,
                                       @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize) {
@@ -69,7 +68,7 @@ public class QuartzJobController {
      * @Validated 注解进行校验数据 https://blog.csdn.net/sj13074480550/article/details/103399503
      */
     @TakeTime
-    @Operation(summary ="后台事务-新增")
+//    @Operation(summary ="后台事务-新增")
     @PostMapping("/add")
     public ApiResult<?> addJob(@Validated @RequestBody QuartzJob quartzJob) {
         try {
@@ -85,7 +84,7 @@ public class QuartzJobController {
      */
     @Token
     @TakeTime
-    @Operation(summary ="后台事务-执行")
+//    @Operation(summary ="后台事务-执行")
     @PostMapping("/execute")
     public ApiResult<?> executeJob(@RequestBody QuartzJob quartzJob){
         return QuartzJobService.execute(quartzJob);
@@ -95,7 +94,7 @@ public class QuartzJobController {
      * @param quartzJob
      */
     @TakeTime
-    @Operation(summary ="后台事务-编辑")
+//    @Operation(summary ="后台事务-编辑")
     @PostMapping("/edit")
     public ApiResult<?> editJob(@RequestBody QuartzJob quartzJob){
         try{
@@ -111,7 +110,7 @@ public class QuartzJobController {
      * /sys/quartzJob/deleteJob?id="ID"
      */
     @TakeTime
-    @Operation(summary ="后台事务-删除")
+//    @Operation(summary ="后台事务-删除")
     @DeleteMapping("/delete")
     public void deleteJob(@RequestParam(name = "id", required = true) String id){
 
@@ -121,7 +120,7 @@ public class QuartzJobController {
      * @param quartzJob
      */
     @TakeTime
-    @Operation(summary ="后台事务-停止")
+//    @Operation(summary ="后台事务-停止")
     @PostMapping("/pause")
     public ApiResult<?> pauseJob(@RequestBody QuartzJob quartzJob){
         return QuartzJobService.stopJob(quartzJob);

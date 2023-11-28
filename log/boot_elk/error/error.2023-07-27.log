@@ -1,0 +1,627 @@
+2023-07-27 11:29:27 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-1 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:27 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-1 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:28 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-2 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:28 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-2 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:29 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-3 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:29 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-3 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:30 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-4 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:30 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-4 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:31 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-5 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:31 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-5 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:32 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-6 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:32 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-6 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:33 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-7 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:33 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-7 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:34 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-8 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:34 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-8 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:35 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-9 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:35 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-9 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:36 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-10 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:36 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-10 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:37 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-1 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:37 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-1 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:38 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-2 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:38 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-2 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:39 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-3 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:39 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-3 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:40 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-4 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:40 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-4 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:41 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-5 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:41 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-5 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:42 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-6 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:42 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-6 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:43 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-7 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:43 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-7 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:44 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-8 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:44 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-8 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:45 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-9 org.quartz.core.JobRunShell Job DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an unhandled Exception: 
+java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted
+2023-07-27 11:29:45 ERROR springAppName_IS_UNDEFINED quartzScheduler_Worker-9 org.quartz.core.ErrorLogger Job (DEFAULT.cVb2hO26T1ZtgH5oaz-Tf1690428394849 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.io.IOException: Cannot run program "del": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:621)
+	at java.lang.Runtime.exec(Runtime.java:451)
+	at java.lang.Runtime.exec(Runtime.java:348)
+	at com.example.localdemo.job.ClearLogs.execute(ClearLogs.java:26)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:453)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:140)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 6 common frames omitted

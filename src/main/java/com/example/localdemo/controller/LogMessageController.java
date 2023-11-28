@@ -2,6 +2,7 @@ package com.example.localdemo.controller;
 
 import com.example.localdemo.annotation.Log;
 import com.example.localdemo.annotation.TakeTime;
+import com.example.localdemo.authentication.Token;
 import com.example.localdemo.entity.LogMessage;
 import com.example.localdemo.result.ApiResult;
 import com.example.localdemo.service.LogMessageService;
@@ -22,6 +23,7 @@ import java.util.List;
 public class LogMessageController {
     @Resource
     LogMessageService logMessageService;
+    @Token
     @TakeTime
     @RequestMapping("/getlog")
     public ApiResult<?> getLogMessageList(){

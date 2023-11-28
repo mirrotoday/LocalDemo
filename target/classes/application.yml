@@ -1,17 +1,15 @@
 server:
   port: 9099
 
-springfox:
-  documentation:
-    swagger-ui:
-      enabled: true
 token:
   appkey: 15351269686
   appsecret: xpossess@gmail.com
 
 spring:
+  application:
+    name: LocalDemo
   profiles:
-    active: prod #读取不同的环境配置文件 dev
+    active: 'prod' #读取不同的环境配置文件 dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
@@ -29,8 +27,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
     static-path-pattern: /static/**
-knife4j:
-    enable: true
+
 
 mybatis-plus:
   mapper-locations: classpath*:mapper/*.xml
@@ -42,3 +39,26 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 
+knife4j:
+  enable: true
+  # 开启登录认证
+  basic:
+    enable: true
+    username: admin
+    password: 123456
+  openapi:
+    title: 微服务-订单模块
+    description: "**SpringCloud学习：JDK11+Spring boot 2.7.11+Knife4j openapi2** "
+    email: xpossess@gmail.com
+    concat: Siyu
+    url: http://docs.xiaominfo.com
+    version: v4.0
+    license: Apache 2.0
+    license-url: https://stackoverflow.com/
+    terms-of-service-url: https://stackoverflow.com/
+    group:
+      test1:
+        group-name: 后端接口
+        api-rule: package
+        api-rule-resources:
+          - com.example.localdemo.controller

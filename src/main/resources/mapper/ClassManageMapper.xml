@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.localdemo.mapper.ClassManageMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.localdemo.entity.ClassManage">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="classname" column="className" jdbcType="VARCHAR"/>
+            <result property="classcode" column="classCode" jdbcType="VARCHAR"/>
+            <result property="classsimple" column="classSimple" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,className,classCode,
+        classSimple
+    </sql>
+</mapper>

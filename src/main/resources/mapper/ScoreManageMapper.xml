@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.localdemo.mapper.ScoreManageMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.localdemo.entity.ScoreManage">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="studentname" column="studentName" jdbcType="BIGINT"/>
+            <result property="onclass" column="onClass" jdbcType="BIGINT"/>
+            <result property="coursename" column="courseName" jdbcType="BIGINT"/>
+            <result property="score" column="score" jdbcType="FLOAT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,studentName,onClass,
+        courseName,score
+    </sql>
+    <select id="getUserName" resultType="java.lang.Long">
+        select id from student_manage where name = #{id}
+    </select>
+    <select id="getClassName" resultType="java.lang.Long">
+        select id from class_manage where className = #{id}
+    </select>
+    <select id="getCourseName" resultType="java.lang.Long">
+        select id from course_manage where name = #{id}
+    </select>
+
+    <select id="getDynamicSQl" resultType="java.lang.String">
+        SELECT
+            GROUP_CONCAT(DISTINCT
+                         CONCAT(
+                                 'MAX(CASE WHEN s.courseName = ''',
+                                 c.id,
+                                 ''' THEN s.score ELSE NULL END) AS ',
+                                 REPLACE(c.name, ' ', '_')
+                             ))
+        from course_manage c
+    </select>
+    <select id="getListData" resultType="com.example.localdemo.response.SomeData">
+        select
+            cm.className,
+            sm.name as studentName,
+            #{dynamicSql},
+            (select SUM(score) from score_manage where studentName = sm.id) totalScore,
+            RANK() OVER (PARTITION BY cm.className ORDER BY (select SUM(score) from score_manage where studentName = sm.id) DESC) AS classRank
+        FROM score_manage s
+                 left join student_manage sm on sm.id = s. studentName
+                 left join class_manage cm on cm.id = s.onClass
+        GROUP BY sm.id,cm.id
+    </select>
+
+
+</mapper>

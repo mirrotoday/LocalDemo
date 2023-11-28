@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.localdemo.mapper.StudentManageMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.localdemo.entity.StudentManage">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="onclass" column="onclass" jdbcType="BIGINT"/>
+            <result property="age" column="age" jdbcType="INTEGER"/>
+            <result property="idcard" column="idCard" jdbcType="VARCHAR"/>
+            <result property="birthday" column="birthday" jdbcType="DATE"/>
+            <result property="phone" column="phone" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,onclass,
+        age,idCard,birthday,
+        phone
+    </sql>
+</mapper>
